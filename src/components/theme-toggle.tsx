@@ -5,9 +5,9 @@ export default function ThemeToggle() {
     const {colorMode, toggleColorMode} = useColorMode()
     return (
         <HStack space={2} alignItems="center">
-            <Text>Dark Mode</Text>
+            <Text>Dark</Text>
             <Switch isChecked={colorMode==='light'} onToggle={toggleColorMode}></Switch>
-            <Text>Light Mode</Text>
+            <Text>Light</Text>
         </HStack>
     )
 }
