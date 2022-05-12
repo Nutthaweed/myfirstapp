@@ -12,7 +12,7 @@ export default function MainScreen() {
     return (
         <Center _dark={{ bg: 'blueGray.900' }} _light={{bg: 'blueGray.50'}} px={4} flex={1}>
                  <VStack space={5} alignItems="center">
-                     <Box width="100px" height="100px">
+                     <Box width={30} height={30} mr={2}>
                          <Pressable onPress={handlePressCheckbox} >
                              <AnimatedCheckbox 
                             checked={checked} highlightColor='#4444ff' checkmarkColor='#ffffff' boxOutlineColor='#4444ff'                            />
